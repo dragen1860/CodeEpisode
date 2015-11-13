@@ -9,3 +9,7 @@ display it on central qlabel.
 - slide.py utils.py
 implement image slide function using QMainWindow.
 press left/right arrow to navigate and ESC to exit.
+
+- server.py client.py 
+implement request get/post and flask get/post request/response
+we can use it to compose web page or local-based application
