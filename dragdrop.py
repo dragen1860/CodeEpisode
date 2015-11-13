@@ -1,7 +1,8 @@
 from PyQt4 import QtGui,QtCore
 from PyQt4.QtGui import *
 import os,sys 
- 
+from ctypes import cdll
+
 
 class Image(QLabel):
 	def __init__(self, parent=None):
@@ -55,6 +56,11 @@ class MainWindow(QMainWindow):
 		self.setCentralWidget(self.image) 
  
 
+
+
+
+
+	
 if __name__=="__main__":
 	app=QApplication(sys.argv)
 	wnd=MainWindow()
